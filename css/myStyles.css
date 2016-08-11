@@ -1,0 +1,202 @@
+/* Styles to be included after bootstrap styles to make personal changes */
+
+body {
+    padding-top: 2%;
+    /*background-color: #F6E8D5; Light Red*/
+    background-color: #61BFED;
+    /*background-color: #EEEEEE;*/
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.top-links {
+    letter-spacing: -1.5px;
+    padding-top: .1%
+    /*font-family: calibri;*/
+    /*padding-top: 1.5%;*/
+}
+
+.header {
+    color: white;
+}
+
+.border-bottom {
+    border-bottom: thin solid grey;
+}
+
+.border-left {
+    border-left: thin solid grey;
+}
+
+.border-top {
+    border-top: thin solid grey;
+}
+
+.padding-bottom {
+    padding-bottom: 2%;
+}
+
+.margin-top {
+    margin-top: .5%;
+}
+
+.header-background {
+    /*background: linear-gradient( 45deg, #ECD7CD, #F6E8D5 ); Light red to lighter red*/
+    background: linear-gradient( 45deg, #0E8BC9, #61BFED);
+    padding-top: 1%;
+    padding-bottom: .7%;
+    opacity: .85;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #6067CF;
+}
+
+a:active{
+    text-decoration: none;
+}
+
+a:visited {
+   text-decoration: none; 
+}
+
+a:focus {
+    text-decoration: none; 
+}
+img {
+    float: right;
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    /*color: #04195D; blueish*/
+    color: #151515;
+    font-size: 110%;
+    padding: 0;
+    margin: 0;
+    /*font-family:palatino linotype;*/
+    /*font-weight: bold;*/
+    /*font-family:tahoma;*/
+    /*font-family:century gothic;*/
+    /*font-family:georgia;*/
+}
+
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+
+.nudge-left {
+    margin-left: -.15%;
+}
+
+.transparent35 {
+    opacity: 0.35;
+}
+
+.transparent75 {
+    opacity: 0.75;
+}
+
+.transparency90 {
+     opacity: 0.9;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.right-text{
+    text-align: right;
+}
+
+.large-font {
+    font-size: 235%;
+}
+
+.light-blue {
+    color: #010044;
+}
+
+.light-green {
+    color: #021D00;
+}
+
+.light-red {
+    color: #1B0000;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.main-info {
+    font-size: 250%;
+    padding-top: 5%;
+    padding-left: 5%;
+    /*font-family:georgia;*/
+}
+
+.secondary-info {
+    color: #00064D;
+    font-size: 150%;
+    padding-top: 5%;
+    padding-left: 5%;
+    /*font-family:georgia;*/
+}
+
+.soft-background {
+    background-color: #E1E6E3;
+}
+
+.light-background {
+    background-color: #F6E8D5;
+}
+
+.dark-background {
+    background-color: #8E8E8E;
+}
+
+.gradient-dark-light {
+    /*background: linear-gradient( 45deg, #C8DBD1, #E1EDE7 );*/
+    /*background: radial-gradient(circle, black, white);*/
+    background: linear-gradient(#A4A4A4, #E9F9E8);
+}
+
+.gradient-light-dark {
+    background: linear-gradient(#E1E6E3, #B1BAB5);
+}
+
+.gradient-light-white {
+    background: linear-gradient(#E1E6E3, white);
+}
+
+.social-media-links a {
+    /*color: #303030;*/
+    color: black;
+}
+
+.social-media-links a:hover {
+    color: #6067CF;
+}
+
+.footer {
+    font-family: georgia;
+    padding-top: 1%;
+    padding-bottom: .2%;
+}
+
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
